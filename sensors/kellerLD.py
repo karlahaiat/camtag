@@ -1,7 +1,8 @@
 """
 Keller LD Python driver by Blue Robotics
+Made by: bluerobotics
+Released under the MIT License
 https://github.com/bluerobotics/KellerLD-python
-
 """
 
 import time
