@@ -8,7 +8,7 @@ from mpu6050 import mpu6050
 debug=True
 
 #Save data in data/pressure
-directory = '/home/pi/newtest/tag_data/sensors/'
+directory = '/home/pi/camtag/tag_data/sensors/'
 if not os.path.exists(directory):
         os.makedirs(directory)
 text_file = open(directory + str(int(time.time())) + '.txt','w')

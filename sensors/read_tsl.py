@@ -1,9 +1,9 @@
 """
 Adaptation of the Arduino_TSL2591 library from 
 adafruit: https://github.com/adafruit/Adafruit_TSL2591_Library
-
-datasheet: 
-http://ams.com/eng/Products/Light-Sensors/Light-to-Digital-Sensors/TSL25911
+Made by: maxlklaxl
+Released under the MIT License
+github: https://github.com/maxlklaxl/python-tsl2591
 """
 
 import smbus
