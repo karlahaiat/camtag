@@ -4,13 +4,13 @@ import os
 
 def startprgm(i):
     	if (i == 0):
-        	os.system("sudo python /home/pi/magnet.py")
+        	os.system("sudo python /home/pi/camtag/light_test.py")
     	elif (i == 1):
-        	os.system("sudo python /home/pi/newtest/sensors/camera.py")
+        	os.system("sudo python /home/pi/camtag/sensors/gps.py")
 	elif (i == 2):
-		os.system("sudo python /home/pi/newtest/sensors/read_sensors.py")
+		os.system("sudo python /home/pi/camtag/sensors/read_sensors.py")
 	elif (i ==3):
-		os.system("sudo python /home/pi/newtest/sensors/gps.py")
+		os.system("sudo python /home/pi/camtag/sensors/camera.py")
 	else:
         	pass
 
