@@ -22,8 +22,8 @@ def count_files_in_dir(path):
 
 def record():
     
-    path_front = "/home/pi/newtest/tag_data/front/"
-    path_back  = "/home/pi/newtest/tag_data/back/"
+    path_front = "/home/pi/camtag/tag_data/front/"
+    path_back  = "/home/pi/camtag/tag_data/back/"
     
     if not os.path.exists(path_front):
 	os.makedirs(path_front)
