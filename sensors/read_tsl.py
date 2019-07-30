@@ -1,9 +1,8 @@
 """
 Adaptation of the Arduino_TSL2591 library from 
 adafruit: https://github.com/adafruit/Adafruit_TSL2591_Library
-
-MIT License
-
+Made by: maxlklaxl
+Released under the MIT License
 github: https://github.com/maxlklaxl/python-tsl2591
 """
 
