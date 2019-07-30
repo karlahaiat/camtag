@@ -1,7 +1,6 @@
 """MPU-6050 Gyroscope / Accelerometer 
 Made by: MrTijn/Tijndagamer
 Released under the MIT License
-Copyright (c) 2015, 2016, 2017 MrTijn/Tijndagamer
 https://github.com/Tijndagamer/mpu6050
 """
 
