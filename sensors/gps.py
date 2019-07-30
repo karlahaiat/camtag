@@ -11,7 +11,7 @@ def gps():
         ser=serial.Serial(COMPORT,BAUDRATE,timeout=0)
 	header="{0},{1},{2},{3},{4}\n".format('Date','GMT Time','UTC','North','West')
 	#header1="Note that 4042.6142,N is (Latitude 40 degrees, 42.6142 decimal minutes North) & 07400.4168,W. (Longitude 74 degrees, 0.4168 decimal minutes West)\n"
-	directory = '/home/pi/newtest/tag_data/GPS/'
+	directory = '/home/pi/camtag/tag_data/GPS/'
 	if not os.path.exists(directory):
         	os.makedirs(directory)
 	text_file = open(directory + str(int(time.time())) + '.txt','w')
