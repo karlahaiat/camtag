@@ -4,7 +4,7 @@ import os
 
 def startprgm(i):
     	if (i == 0):
-        	os.system("sudo python /home/pi/camtag/light_test.py")
+        	os.system("sudo python /home/pi/camtag/ledstart.py")
     	elif (i == 1):
         	os.system("sudo python /home/pi/camtag/sensors/gps.py")
 	elif (i == 2):
