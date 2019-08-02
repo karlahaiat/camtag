@@ -1,0 +1,17 @@
+#To run this service on boot follow these steps:
+# $ sudo cp power.service /etc/systemd/system/
+# $ sudo systemctl enable power.service
+# $ sudo systemctl start  power.service
+
+[Service]
+ExecStart=/home/pi/camtag/power/power.py
+WorkingDirectory=/home/pi/camtag/
+Restart=always
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=power
+User=root
+Group=root
+
+[Install]
+WantedBy=multi-user.target

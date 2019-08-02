@@ -5,7 +5,7 @@ import serial
 import threading
 import time
 
-debug=True
+debug=False
 
 def gps():
         ser=serial.Serial(COMPORT,BAUDRATE,timeout=0)
@@ -14,7 +14,7 @@ def gps():
 	directory = '/home/pi/camtag/tag_data/GPS/'
 	if not os.path.exists(directory):
         	os.makedirs(directory)
-	text_file = open(directory + str(int(time.time())) + '.txt','w')
+	text_file = open(directory + str(int(time.time())) + '.txt','a')
 	text_file.write(header)
 	#text_file.write(header1)
 

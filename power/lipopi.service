@@ -1,4 +1,0 @@
-#To run this service on boot follow these steps:
-# $ sudo cp lipopi.service /etc/systemd/system/.
-# $ sudo systemctl enable lipopi.service
-# $ sudo systemctl start  lipopi.service"""

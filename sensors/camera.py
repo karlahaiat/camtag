@@ -3,7 +3,6 @@ import os
 import time
 
 debug = False
-debu= True
 
 print("before initializing cameras")
 # Initialize cameras
@@ -15,7 +14,7 @@ def count_files_in_dir(path):
     path, dirs, files = next(os.walk(path))
     file_count = len(files)
 
-    if (debu):
+    if (debug):
         print("current file count: %d" %(file_count))
         
     return int(file_count)
