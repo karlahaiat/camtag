@@ -41,6 +41,7 @@ def record():
         timer = time.time()
         left_camera.start_recording(path_front + '%d-%d.h264' %(i,timer))
         right_camera.start_recording(path_back + '%d-%d.h264' %(i,timer))
+	#the names can be changed to include -back and -front to differentiate between file names
         
 
         if (debug):
